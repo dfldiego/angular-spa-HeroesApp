@@ -66,6 +66,10 @@ export class HeroesService {
     return this.heroes;
   }
 
+  getHeroe(idx: string): Heroe {
+    return this.heroes[idx];
+  }
+
 }
 
 // Para que TS no inserte nueva data que no tenga estas caracteristicas.
