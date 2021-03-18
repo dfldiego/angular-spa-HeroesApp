@@ -5,8 +5,6 @@ import { RouterModule } from '@angular/router';
 // Routes
 import { AppRoutingModule } from './app.routes';
 
-// Servicios
-
 // Componentes
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
